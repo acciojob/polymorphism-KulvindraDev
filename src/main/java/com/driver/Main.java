@@ -16,12 +16,9 @@ class Product {
 
 public class Main {
     public static void main(String[] args) {
-        Product p = new Product();
-        int result1 = p.product(5, 10);
-        int result2 = p.product(5, 10, 15);
-        double result3 = p.product(5.5, 10.5);
-        System.out.println(result1);
-        System.out.println(result2);
-        System.out.println(result3);
+        Product p = new Product(); 
+        System.out.println(p.product(5, 10));
+        System.out.println(p.product(5, 10, 15));
+        System.out.println(p.product(5.5, 10.5));
     }
 }
